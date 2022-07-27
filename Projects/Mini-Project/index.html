@@ -37,6 +37,8 @@
     <main>
         <section id="about">
             <h2>About</h2>
+            <div class="row">
+
             <div class="section_description">
                 <div class="section_description-wrapper">
                     <p class="section_description-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptates ex, fugit laboriosam accusantium eos natus amet! Vel perferendis fuga quod sapiente obcaecati minus asperiores beatae culpa inventore. Fugit, ducimus?</p>
@@ -45,19 +47,23 @@
             <figure class="about_img-wrapper" >
                 <img src="Assets/about.jpg" alt="">
             </figure>
+        </div>
         </section>
 
 
         <section id="discord">
-            <h2>Discord</h2>
-            <figure>
+        <h2>Discord</h2>
+        <div class="row">
+        <div class="section_description">
+            <figure class="about_img-wrapper" >
                 <img src="Assets/discord.png">
             </figure>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptates ex, fugit laboriosam accusantium eos natus amet! Vel perferendis fuga quod sapiente obcaecati minus asperiores beatae culpa inventore. Fugit, ducimus?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptates ex, fugit laboriosam accusantium eos natus amet! Vel perferendis fuga quod sapiente obcaecati minus asperiores beatae culpa inventore. Fugit, ducimus?</p>
+            <div class="section_description-wrapper">
+                <p class="section_description-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptates ex, fugit laboriosam accusantium eos natus amet! Vel perferendis fuga quod sapiente obcaecati minus asperiores beatae culpa inventore. Fugit, ducimus?</p>
+                <p class="section_description-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptates ex, fugit laboriosam accusantium eos natus amet! Vel perferendis fuga quod sapiente obcaecati minus asperiores beatae culpa inventore. Fugit, ducimus?</p>
             </div>
         </div>
+    </div>
         </section>
 
         <section id="contact">
@@ -66,18 +72,19 @@
                 <label>Email</label>
                 <input type="email" placeholder="lunga@example.com">
                 <label>Message</label>
-                <textarea type="text" placeholder=""></textarea>
+                <textarea type="text" placeholder="Cool website, let's get connected!"></textarea>
+                <button>Contact us</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <img src="Assets/FES.svg" alt="">
-        <div>
-            <a href="#about">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
-            <a href="">Courses</a>
+        <img class="footer_logo" src="Assets/FES.svg" alt="">
+        <div class="footer_links">
+            <a class="footer_link" href="#about">About</a>
+            <a class="footer_link" href="#discord">Discord</a>
+            <a class="footer_link" href="#contact">Contact</a>
+            <a class="footer_link" href="">Courses</a>
         </div>
         <p>Copyright Frontend Simplified</p>
     </footer>
